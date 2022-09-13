@@ -73,7 +73,6 @@ li {
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    gap: 36px;
     
 }
 
@@ -83,8 +82,8 @@ li {
     display: flex;
     justify-content: center;
     gap: 36px;
-    padding: 5px;  
-
+    padding: 5px;
+    min-width: 400px;
 }
 
 .card-list {
@@ -119,17 +118,20 @@ li {
     text-align: center;
     padding: 10px;
     color: #2e2e2e;
+    max-width: 500px
 
 }
 
 .cards .container-image {
 
     text-align: center;
+    max-width: 500px
+    
 }
 
 .cards .races-image {
 
-    max-width: 100%;
+    max-width: 500px;
     max-height: 350px;
 
 }
@@ -138,6 +140,7 @@ li {
 
     text-align: center;
     padding: 5px;
+    max-width: 500px
     
 }
 
@@ -162,7 +165,7 @@ li {
 
 .teaser {
     display: flex;
-    width: 60rem;
+    width: 40rem;
     padding: 1.5rem;
     
 }
@@ -197,7 +200,7 @@ li {
 
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
 
     .header {
         flex-direction: column;
@@ -213,21 +216,23 @@ li {
      
     }
 
+  
     .curiosidades {
         text-align: center;
         margin-bottom: 10px;
     }
 
+    
     .cards {
         flex-wrap: wrap;
         align-items: center;
-        width: 100%;
         padding: 1rem;
- 
+        max-width: 400px;
+        gap: 50px;
     }
 
     .card-list {
-        width: 100%;
+        max-width: 350px;
     
     }
 
@@ -238,7 +243,7 @@ li {
     .teaser {
         flex-direction: column;
         align-items: center;
-        
+        max-width: 425px;
     }
 
     .teaser iframe {
