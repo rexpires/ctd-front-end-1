@@ -22,9 +22,9 @@
     padding-right: 12px;
 }
 
-/* .main-content {
 
-}     */
+/* Main */
+
 
 .main-content .welcome {
     min-height: 100vh;
@@ -41,12 +41,13 @@ section#img01 {
 }
 
 .main-content .order-button {
-    background-color:rgb(2, 13, 40);
+    background-color:rgb(68, 242, 33);
     position: relative;
     bottom: -50px;
     font-family: sans-serif;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
+    border-style: none;
 }
 
 .main-content .section-title {
@@ -72,28 +73,51 @@ section#img01 {
     height: 238px;
 }
 
-.footer {
 
+/* Rodapé */
+
+footer {
+    flex: 1;
+    background-color: #171717;
+    font-family: sans-serif;
+  }
+  
+  .footer-menu {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 3rem;
-    background: rgb(2, 13, 40);
-    height: 15rem;
-    padding: 0 1rem;
-}
-
-.footer .footer-menu {
+    padding: 20px 30px;
     color: white;
-}
+  }
+  
+  .footer-menu p,i {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .footer-names {
+    padding: 10px 0;
+  }
 
-.footer .footer-menu ul {
     
-    display: flex;
-}
+  .icons img {
+    margin-right: 8px;
+  }
+  
+  .footer-msg p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+  
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .active {
+    color: #e51b3e !important;
+    cursor: default;
+  }
 
 
-.footer-menu a {
-    padding: 0 1rem;
-
-}
