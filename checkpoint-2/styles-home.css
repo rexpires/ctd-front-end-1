@@ -78,41 +78,39 @@ section#img01 {
 
 footer {
     flex: 1;
-    background-color: #171717;
+    background-color: rgb(2, 13, 40);
     font-family: sans-serif;
   }
   
   .footer-menu {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 20px 30px;
     color: white;
   }
   
-  .footer-menu p,i {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
   .footer-names {
     padding: 10px 0;
   }
-
+  
+  .footer-names p,i {
+    color: white;
+  }
     
   .icons img {
-    margin-right: 8px;
+    margin-right: 10px;
   }
   
   .footer-msg p {
+    text-align: center;
+    padding: 30px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 0;
-  
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    padding: 60px;
+
   }
   
   .active {
