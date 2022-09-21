@@ -1,4 +1,5 @@
 
+
 .navbar-custom {
     background-color: rgb(2, 13, 40);
 }
@@ -13,6 +14,12 @@
 
 .toggler-custom {    
     background-color: rgb(244, 131, 10);
+}
+
+.navbar-custom .navbar-nav-custom {
+    width: 100%;
+    justify-content: end;
+    padding-right: 12px;
 }
 
 /* .main-content {
@@ -30,7 +37,7 @@ section#img01 {
     background-image: url(./imagens/Banner4\ Checkpoint\ 2\ -\ 1300x600\ px.png);    
     background-position: center;
     background-size: cover; 
-    background-attachment: fixed;      
+    background-attachment: fixed; 
 }
 
 .main-content .order-button {
@@ -54,7 +61,7 @@ section#img01 {
 }
 
 .card .card-custom {
-    max-height: 416px;
+    max-height: 351px;
 }
 
 .card .body-custom {
@@ -63,4 +70,30 @@ section#img01 {
 
 .card .body-custom2 {
     height: 238px;
+}
+
+.footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background: rgb(2, 13, 40);
+    height: 15rem;
+    padding: 0 1rem;
+}
+
+.footer .footer-menu {
+    color: white;
+}
+
+.footer .footer-menu ul {
+    
+    display: flex;
+}
+
+
+.footer-menu a {
+    padding: 0 1rem;
+
 }
