@@ -32,49 +32,33 @@
     display: flex;        
     justify-content: center;    
     align-items: center;
-    background-image: url(./imagens/Banner\ 6.png);    
+    background-image: url(./imagens/Peperoni-detalhe.jpg);    
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: bottom;
 }
 
-.main-content .order-button {
-    background-color:rgb(68, 242, 33);
-    position: relative;
-    width: 200px;
-    height: 60px;
-    bottom: -50px;
-    font-family: sans-serif;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    border-style:solid;
-    opacity: 0.7;
+.detalhe {
+    padding: 20px;
+}
+
+.detalhe .estrela {
+    width: 40px;
+    top: 20px;
+    left: 20px;
 }
 
 .main-content .section-title {
-    padding: 60px 0;
-    text-align: center;
+    padding: 10px;
+    text-align:left;
     font-size: 45px;
+    text-align: center;
 }
 
-.products .row-custom {
-    justify-content: center;
-    padding: 15px;
+p {
+    text-align: center;
 }
-
-.card .card-custom {
-    max-height: 351px;
-}
-
-.card .body-custom {
-    height: 200px;
-}
-
-.card .body-custom2 {
-    height: 238px;
-}
-
 
 /* Rodapé */
 
