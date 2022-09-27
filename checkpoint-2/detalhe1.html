@@ -33,7 +33,8 @@
                             <a class="nav-link" href="#footer">Sobre Nós</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-success btn-login">Login</button>
+                    <button class="btn btn-outline-success btn-login" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
                 </div>
             </div>
         </nav>
@@ -41,6 +42,38 @@
 
     <main class="main-content">
 
+        <!-- Modal -->
+
+        <div class="modal fade modal-custom" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modal-header-custom">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-logo">
+                        <img class="modal-img" src="./imagens/Logo Checkpoint 2 - 150x150 px (2).png" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-content" action="">
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="text" id="email" placeholder="email@email.com.br">
+                            </div>
+                            <div>
+                                <label for="senha">Senha</label>
+                                <input type="password" id="senha">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer modal-footer-custom">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
         <section class="welcome" id="img01"></section>
 
         <div class="detalhe">

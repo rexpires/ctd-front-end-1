@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,7 +42,79 @@ html {
 }
 
 
-/* Main */
+/* Início Main */
+
+/* Início Modal */
+
+.modal-header-custom {
+  border: none !important;
+}
+
+.modal-header-custom .btn-close {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(244, 131, 10);
+}
+
+.modal-logo {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-img {
+  width: 150px;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.form-content {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-content div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.1px solid #DCDCDC;
+}
+
+.form-content input:hover {
+  border: 1px solid rgb(244, 131, 10);
+  transition: .5s;
+}
+
+.modal-footer-custom {
+  justify-content: center;
+  border: 0;
+  margin-bottom: 5px;
+}
+
+.modal-footer-custom .btn-secondary {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(244, 131, 10) !important;
+  border: none;
+}
+
+.modal-footer-custom button:hover {
+  color: #171717 !important;
+  background-color: rgb(68, 242, 33) !important;
+  scale: 1.1;
+}
+
+/* Fim Modal */
 
 
 .main-content .welcome {
