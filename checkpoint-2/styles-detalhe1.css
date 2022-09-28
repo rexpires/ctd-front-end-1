@@ -38,7 +38,6 @@ html {
   transform: scale(1.2);
 }
 
-
 /* Main */
 
 
@@ -47,7 +46,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./imagens/Margherita-detalhe.jpg);
+  background-image: url(./imagens/Quattroformaggio-detalhe.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
