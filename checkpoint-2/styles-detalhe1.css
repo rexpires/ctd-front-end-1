@@ -38,29 +38,30 @@ html {
   transform: scale(1.2);
 }
 
+
 /* Main */
 
 
 .main-content .welcome {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./imagens/Quattroformaggio-detalhe.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+    min-height: 100vh;
+    display: flex;        
+    justify-content: center;    
+    align-items: center;
+    background-image: url(./imagens/Camarão-detalhe.png);    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom;
 }
 
 .detalhe {
-  padding: 20px;
+    padding: 20px;
 }
 
 .detalhe .estrela {
-  width: 40px;
-  top: 20px;
-  left: 20px;
+    width: 40px;
+    top: 20px;
+    left: 20px;
 }
 
 .estrela:hover {
@@ -69,14 +70,14 @@ html {
 }
 
 .main-content .section-title {
-  padding: 10px;
-  text-align: left;
-  font-size: 45px;
-  text-align: center;
+    padding: 10px;
+    text-align:left;
+    font-size: 45px;
+    text-align: center;
 }
 
 p {
-  text-align: center;
+    text-align: center;
 }
 
 .main-content .tipo-pedido {
@@ -106,59 +107,59 @@ p {
 /* Rodapé */
 
 footer {
-  flex: 1;
-  background-color: black;
-  font-family: sans-serif;
-}
-
-.footer-menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 30px;
-  color: white;
-}
-
-.footer-names {
-  padding: 10px 0;
-}
-
-.footer-names p,
-i {
-  color: white;
-}
-
-.icons img {
-  margin-right: 10px;
-}
-
-.footer-msg p {
-  text-align: center;
-  padding: 30px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.5);
-
-}
-
-.active {
-  color: #e51b3e !important;
-  cursor: default;
-}
-
-@media(max-width: 768px) {
-
+    flex: 1;
+    background-color: black;
+    font-family: sans-serif;
+  }
+  
   .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+  }
+  
+  .footer-names {
+    padding: 10px 0;
+  }
+  
+  .footer-names p,i {
+    color: white;
+  }
+    
+  .icons img {
+    margin-right: 10px;
+  }
+  
+  .footer-msg p {
+    text-align: center;
+    padding: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
 
-      display: block;
-      
   }
-  .version-mobile {
-    display: flex ;
+  
+  .active {
+    color: #e51b3e !important;
+    cursor: default;
   }
-  .version-tablet {
-    display: none;
+
+  @media(max-width: 768px) {
+
+    .footer-menu {
+  
+        display: block;
+        
+    }
+    .version-mobile {
+      display: flex ;
+    }
+    .version-tablet {
+      display: none;
+    }
   }
-}
+
