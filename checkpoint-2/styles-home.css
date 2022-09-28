@@ -41,8 +41,6 @@ html {
   transform: scale(1.2);
 }
 
-/* Início Main */
-
 /* Início Modal */
 
 .modal-header-custom {
@@ -113,7 +111,9 @@ html {
   scale: 1.1;
 }
 
-/* Fim Modal */
+
+/* Main */
+
 
 .main-content .welcome {
   min-height: 100vh;
@@ -126,6 +126,7 @@ html {
   background-size: cover;
   background-position: bottom;
   flex-direction: column;
+  
 }
 
 .welcome .banner-text {
@@ -145,6 +146,11 @@ html {
   border-radius: 10px;
   border-style: none;
   cursor: pointer;
+
+}
+
+.version-mobile {
+  display: none;
 }
 
 .main-content button:hover {
@@ -153,15 +159,9 @@ html {
   background-color: rgb(68, 242, 33);
 }
 
-.main-content login-custom:target {
-  visibility: visible;
-  opacity: 1;
-}
-
 
 .main-content .section-title {
-  margin-top: 40px;
-  padding: 115px 0;
+  padding: 60px 0;
   text-align: center;
   font-size: 45px;
 }
@@ -169,10 +169,11 @@ html {
 .products .row-custom {
   justify-content: center;
   padding: 15px;
+  gap: 12px;
 }
 
 .card .card-custom {
-  max-height: 351px;
+  height: 200px;
 }
 
 .card .body-custom {
@@ -180,24 +181,22 @@ html {
 }
 
 .card .body-custom2 {
-  height: 238px;
+  height: 200px;
 }
 
-.col-3 .button-custom {
+.col-sm-12 .button-custom {
   font-family: 'Poppins', sans-serif;
   border-style: none;
   background-color: rgb(244, 131, 10);
 }
 
-.col-3 .button-custom:hover {
+.col-sm-12 .button-custom:hover {
   font-family: 'Poppins', sans-serif;
   transition: 1s;
   transform: scale(1.1);
   background-color: rgb(68, 242, 33);
   color: black;
 }
-
-/* Final Main */
 
 /* Rodapé */
 
@@ -243,3 +242,20 @@ i {
   color: #e51b3e !important;
   cursor: default;
 }
+
+@media(max-width: 768px) {
+
+  .footer-menu {
+
+      display: block;
+      
+  }
+  .version-mobile {
+    display: flex ;
+  }
+  .version-tablet {
+    display: none;
+  }
+}
+  
+
